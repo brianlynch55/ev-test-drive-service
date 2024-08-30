@@ -1,0 +1,154 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.test-drive-form {
+  max-width: 400px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-header {
+  background: linear-gradient(to right, #3498db, #2980b9);
+  color: white;
+  padding: 20px;
+  margin: -20px -20px 20px -20px;
+  border-radius: 8px 8px 0 0;
+}
+
+.form-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.form-input,
+.form-select {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.form-button {
+  width: 100%;
+  padding: 10px;
+  background: linear-gradient(to right, #3498db, #2980b9);
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.form-button:hover {
+  background: linear-gradient(to right, #2980b9, #3498db);
+}
+
+.form-button:disabled {
+  background: #cccccc;
+  cursor: not-allowed;
+}
+
+.error-message {
+  color: #e74c3c;
+  background-color: #fadbd8;
+  padding: 10px;
+  border-radius: 4px;
+  margin-bottom: 15px;
+}
+
+.success-message {
+  color: #27ae60;
+  background-color: #d4efdf;
+  padding: 10px;
+  border-radius: 4px;
+  margin-bottom: 15px;
+}
+
+.Toastify__toast-container {
+  width: 320px;
+}
+
+.Toastify__toast {
+  border-radius: 4px;
+  padding: 16px;
+}
+
+.Toastify__toast-body {
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+}
+
+.Toastify__toast--success {
+  background: #27ae60;
+}
+
+.Toastify__toast--error {
+  background: #e74c3c;
+}
+
+.Toastify__toast--warning {
+  background: #f39c12;
+}
+
+.Toastify__close-button {
+  color: #fff;
+  opacity: 0.7;
+}
+
+.Toastify__close-button:hover {
+  opacity: 1;
+}
+
+.section-title {
+  font-size: 1.2em;
+  font-weight: bold;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  color: #2c3e50;
+}
+
+.availability-result {
+  background-color: #e8f4fd;
+  border: 1px solid #3498db;
+  border-radius: 4px;
+  padding: 15px;
+  margin-bottom: 20px;
+}
+
+.availability-result h3 {
+  color: #2980b9;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.availability-result p {
+  margin: 5px 0;
+}
